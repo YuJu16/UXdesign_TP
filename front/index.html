@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ma Boutique</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-grid" id="product-grid">
+            <!-- Les produits seront insérés ici par JS -->
+        </div>
+        <div class="pagination">
+            <button id="prev-button" disabled>Précédent</button>
+            <span id="page-indicator">Page 1</span>
+            <button id="next-button">Suivant</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ma Boutique.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
