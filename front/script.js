@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="${product.image_url}" alt="${product.name}">
                 <h3>${product.name}</h3>
                 <p>${product.description}</p>
-                <p class="price">${product.price}</p>
+                <p class="price">${product.price}€</p>
             `;
             productGrid.appendChild(productCard);
         });
